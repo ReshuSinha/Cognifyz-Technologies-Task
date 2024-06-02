@@ -1,12 +1,12 @@
 import java.util.Scanner;
 public class TicTacToeGame{
     public static boolean haveWon(char board[][],char player){
-        //Check for rows
+        //Check the rows
         for(int row=0;row<board.length;row++){
             if(board[row][0]==player&&board[row][1]==player&&board[row][2]==player)
             return true;
         }
-        //check for columns
+        //check the columns
         for(int col=0;col<board.length;col++){
             if(board[0][col]==player&&board[1][col]==player&&board[2][col]==player)
             return true;
