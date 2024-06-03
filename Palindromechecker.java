@@ -1,7 +1,8 @@
 import java.util.*;
 public class Palindromechecker{
     public static void check(String q){
-        String p="",a="";        //taken two empty string
+        String p="";         //taken two empty string
+        String a="";       
         String w=q.toLowerCase();      //converting whole string into lowercase
         for(int i=0;i<w.length();i++){
             int t=w.length()-i-1;
