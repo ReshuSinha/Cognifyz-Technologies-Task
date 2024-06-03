@@ -14,7 +14,7 @@ public class Temperatureconversion{
             }
             break;
             default:{System.out.println("Enter valid unit of temperature.");
-            System.out.println("Wants to try again\n"+"Y for Yes and N for No");
+            System.out.println("Wants to try again\n"+"Enter Y for Yes and N for No");
             char ag=n.next().charAt(0);
             if(ag=='Y'){
                 input();
